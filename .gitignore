@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Vite cache directories
+.vite
+.md/.vite
+
+# Environment variables - 重要！不要上传
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Steam API Key 等敏感配置
+*.key
+secrets.*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 测试覆盖
+coverage/
+*.lcov
+
+# Travis CI
+.travis.yml
+
+# 临时文档（不上传）
+期末大作业文档.md
+*.tmp.md
+*-副本*.ts
